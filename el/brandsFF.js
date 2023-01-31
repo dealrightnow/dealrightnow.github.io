@@ -1,1 +1,1 @@
-brandsF=["acehardware","art","barkbox","bodybuilding","bbqguys","healthycell","hokaoneone","hp","lenovo","newbalance","samsung","vegas","walmart","wine.com"];
+brandsF=["acehardware","art","barkbox","bodybuilding","bbqguys","brainiacfoods","eventticketscenter","healthycell","hokaoneone","homehardware","hp","lenovo","newbalance","samsung","ticketclub","vegas","walmart","wine.com"];
