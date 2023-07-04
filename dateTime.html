@@ -3,8 +3,10 @@
 <input type="hidden" value="" id="TimeTime"/>
 <script>
   setTimeout(function(){
-    //markup=document.getElementById('dateTime').contentWindow.document.body.innerHTML;
     markup=document.getElementById('dateTime').contentWindow.document.getElementById('UTC_za00').querySelectorAll('span');
-    console.log(markup[0].innerText);
+    DateDate=markup[0].innerText;
+    TimeTime=markup[1].innerText;
+    document.getElementById('DateDate').value=DateDate;
+    document.getElementById('TimeTime').value=TimeTime;
   },2000)
 </script>
