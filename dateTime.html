@@ -1,8 +1,10 @@
 <iframe src="date.html" id="dateTime"></iframe>
+<input type="hidden" value="" id="DateDate"/>
+<input type="hidden" value="" id="TimeTime"/>
 <script>
   setTimeout(function(){
     //markup=document.getElementById('dateTime').contentWindow.document.body.innerHTML;
     markup=document.getElementById('dateTime').contentWindow.document.getElementById('UTC_za00').querySelectorAll('span');
-    console.log(markup);
+    console.log(markup[0].innerHTML);
   },2000)
 </script>
