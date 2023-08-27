@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>hCaptcha Demo</title>
+    <script src="https://js.hcaptcha.com/1/api.js?hl=en&render=explicit" async defer></script>
+  </head>
+  <body>
+    <form action="" method="POST">
+      <input type="text" name="email" placeholder="Email" />
+      <input type="password" name="password" placeholder="Password" />
+      <div class="h-captcha" id="h-captcha" data-sitekey="your_site_key"></div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+    <script>
+      function enable_captcha(id) {
+    hcaptcha.render(id, {
+        sitekey: '31270b80-06cc-4bb1-844b-da9f0fed8845',
+        theme: 'dark',
+        size: 'compact',
+        callback: function (response) {
+            console.log(response);
+        }
+    })
+}
+      enable_captcha('h-captcha');
+    </script>
+  </body>
+</html>
